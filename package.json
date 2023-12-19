@@ -1,0 +1,33 @@
+{
+  "name": "pipeline-playground",
+  "version": "0.1.0",
+  "description": "This project is meant to play around with github actions, mostly for learning and testing automations.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noctua84/pipeline-playground.git"
+  },
+  "keywords": [
+    "lab",
+    "playground",
+    "github-actions"
+  ],
+  "author": "Markus Möller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noctua84/pipeline-playground/issues"
+  },
+  "homepage": "https://github.com/noctua84/pipeline-playground#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
